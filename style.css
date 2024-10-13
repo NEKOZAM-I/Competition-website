@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700');
+
+body {
+    font-family: Poppins, sans-serif;
+    font-size: 14px;
+
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    padding-top: 1.8rem 1;
+}
+.nav-item {
+    justify-content: space-between;
+}
+.nav-link {
+    color: #484848;
+    padding: 0.8rem 1rem;
+    font-weight: 600;
+}
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: #e9551b;
+}
+.logo-link {
+    width: 5%;
+}
+.logo {
+    width: 10;
+}
+.card-text {
+    font-size: 16px;
+    font-weight: 400;
+}
+.card-title{
+    font-weight: 700;
+}
+      
+  .dropdown-menu {
+    background-color: #fff;    
+} 
+  .dropdown-menu a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    background: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+  .dropdown-menu a:hover {
+    background-color: #ddd;
+}
+  .dropdown:hover .dropbtn {
+    background-color: #e9551b;
+}
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.btn-primary {
+    color: #fff !important;
+    background-color: #e9551b;
+    border-color: #e9551b;
+    font-size: 14px;
+    padding: 1rem 3rem;
+}
+.btn-secondary {
+    background-color: transparent;
+    border: #fff;
+    color: #000;
+    text-decoration: none;
+}
+.btn-getstarted {
+    font-weight: 600;
+    font-size: .9em;
+    padding: 5px 10px;
+}
+.rounded-pill {
+    border-radius: 50rem;
+}
+a.btn-secondary {
+    padding-top: .2rem;
+    font-size: .8rem;
+    font-weight: 700;
+    padding-right: 40px;
+}
